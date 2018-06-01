@@ -1,9 +1,7 @@
 FROM ubuntu:16.04
 
-LABEL company="Java Home Cloud" \
-      maintainer="Hari" \
-      Location="Banglore" \
-      Version="0.0.1"
+LABEL Name="Babu" \
+
 
 RUN apt-get update -y
 # httpd is the package name for apache in Linux
